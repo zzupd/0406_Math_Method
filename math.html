@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            font-size: 24px;
+        }
+
+        fieldset {
+            width: 400px;
+            padding: 20px;
+        }
+
+        button {
+            margin: 20px;
+        }
+        .res {
+            color: #08f;
+        }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <h1>Math객체 하위함수(=메서드)</h1>
+    <fieldset>
+        <legend>Math객체 함수</legend>
+        <ul>
+            <li>
+                <span>ceil(올림)</span><br>
+                <span class="res"></span>
+            </li>
+            <li>
+                <span>round(반올림)</span><br>
+                <span class="res"></span>
+            </li>
+            <li>
+                <span>floor(내림)</span><br>
+                <span class="res"></span>
+            </li>
+        </ul>
+    </fieldset>
+    입력 <input type="text" id="ins" size="3">
+    <button type="button">결과확인</button>
+    <fieldset>
+        <legend>random( ) 함수 : 입력값과 무관</legend>
+        <span id="rndRes"></span>
+    </fieldset>
+
+</body>
+
+</html>
